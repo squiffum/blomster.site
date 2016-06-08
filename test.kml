@@ -1,52 +1,113 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <kml xmlns='http://www.opengis.net/kml/2.2'>
 	<Document>
-		<name>test</name>
-		<description><![CDATA[test1]]></description>
+		<name>Excel test</name>
+		<description><![CDATA[]]></description>
 		<Folder>
-			<name>Ikke-navngivet lag</name>
+			<name>map.xlsx</name>
 			<Placemark>
 				<name>Eksempel 1</name>
-				<description><![CDATA[Beskrivelse]]></description>
+				<description><![CDATA[Adresse: Viborgvej 155<br>By: Aarhus V<br>Postnummer: 8210<br>Telefonnummer: 10000000<br>Link: http://www.eksempel1.dk<br>E-mail: eksempel1@gmail.com]]></description>
 				<styleUrl>#icon-503-DB4436</styleUrl>
-				<Point>
-					<coordinates>9.8876953,56.4685598,0.0</coordinates>
-				</Point>
+				<ExtendedData>
+					<Data name='Adresse'>
+						<value>Viborgvej 155</value>
+					</Data>
+					<Data name='By'>
+						<value>Aarhus V</value>
+					</Data>
+					<Data name='Postnummer'>
+						<value>8210</value>
+					</Data>
+					<Data name='Telefonnummer'>
+						<value>1.0E7</value>
+					</Data>
+					<Data name='Link'>
+						<value>http://www.eksempel1.dk</value>
+					</Data>
+					<Data name='E-mail'>
+						<value>eksempel1@gmail.com</value>
+					</Data>
+				</ExtendedData>
+				<address>Viborgvej 155 Aarhus V 8210</address>
 			</Placemark>
 			<Placemark>
-				<name>Punkt 2</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<Point>
-					<coordinates>9.5800781,56.2005929,0.0</coordinates>
-				</Point>
+				<name>Eksempel 2</name>
+				<description><![CDATA[Adresse: Resenbrovænget 3<br>By: Silkeborg<br>Postnummer: 8600<br>Telefonnummer: 20000000<br>Link: http://www.eksempel2.dk<br>E-mail: eksempel2@gmail.com]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Adresse'>
+						<value>Resenbrovænget 3</value>
+					</Data>
+					<Data name='By'>
+						<value>Silkeborg</value>
+					</Data>
+					<Data name='Postnummer'>
+						<value>8600</value>
+					</Data>
+					<Data name='Telefonnummer'>
+						<value>2.0E7</value>
+					</Data>
+					<Data name='Link'>
+						<value>http://www.eksempel2.dk</value>
+					</Data>
+					<Data name='E-mail'>
+						<value>eksempel2@gmail.com</value>
+					</Data>
+				</ExtendedData>
+				<address>Resenbrovænget 3 Silkeborg 8600</address>
 			</Placemark>
 			<Placemark>
-				<name>Punkt 3</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<Point>
-					<coordinates>8.8220215,56.3104432,0.0</coordinates>
-				</Point>
+				<name>Eksempel 3</name>
+				<description><![CDATA[Adresse: Søndre Vissingvej 26A<br>By: Brædstrup<br>Postnummer: 8740<br>Telefonnummer: 30000000<br>Link: http://www.eksempel3.dk<br>E-mail: eksempel3@gmail.com]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Adresse'>
+						<value>Søndre Vissingvej 26A</value>
+					</Data>
+					<Data name='By'>
+						<value>Brædstrup</value>
+					</Data>
+					<Data name='Postnummer'>
+						<value>8740</value>
+					</Data>
+					<Data name='Telefonnummer'>
+						<value>3.0E7</value>
+					</Data>
+					<Data name='Link'>
+						<value>http://www.eksempel3.dk</value>
+					</Data>
+					<Data name='E-mail'>
+						<value>eksempel3@gmail.com</value>
+					</Data>
+				</ExtendedData>
+				<address>Søndre Vissingvej 26A Brædstrup 8740</address>
 			</Placemark>
 			<Placemark>
-				<name>Punkt 4</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<Point>
-					<coordinates>9.2944336,55.615589,0.0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Punkt 5</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<Point>
-					<coordinates>9.0307617,55.3228942,0.0</coordinates>
-				</Point>
-			</Placemark>
-			<Placemark>
-				<name>Punkt 6</name>
-				<styleUrl>#icon-503-DB4436-nodesc</styleUrl>
-				<Point>
-					<coordinates>10.3381348,55.316643,0.0</coordinates>
-				</Point>
+				<name>Eksempel 4</name>
+				<description><![CDATA[Adresse: Rolykkevej 23<br>By: Vejen<br>Postnummer: 6600<br>Telefonnummer: 40000000<br>Link: http://www.eksempel4.dk<br>E-mail: eksempel4@gmail.com]]></description>
+				<styleUrl>#icon-503-DB4436</styleUrl>
+				<ExtendedData>
+					<Data name='Adresse'>
+						<value>Rolykkevej 23</value>
+					</Data>
+					<Data name='By'>
+						<value>Vejen</value>
+					</Data>
+					<Data name='Postnummer'>
+						<value>6600</value>
+					</Data>
+					<Data name='Telefonnummer'>
+						<value>4.0E7</value>
+					</Data>
+					<Data name='Link'>
+						<value>http://www.eksempel4.dk</value>
+					</Data>
+					<Data name='E-mail'>
+						<value>eksempel4@gmail.com</value>
+					</Data>
+				</ExtendedData>
+				<address>Rolykkevej 23 Vejen 6600</address>
 			</Placemark>
 		</Folder>
 		<Style id='icon-503-DB4436-normal'>
@@ -85,50 +146,6 @@
 			<Pair>
 				<key>highlight</key>
 				<styleUrl>#icon-503-DB4436-highlight</styleUrl>
-			</Pair>
-		</StyleMap>
-		<Style id='icon-503-DB4436-nodesc-normal'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>0.0</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<Style id='icon-503-DB4436-nodesc-highlight'>
-			<IconStyle>
-				<color>ff3644DB</color>
-				<scale>1.1</scale>
-				<Icon>
-					<href>http://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
-				</Icon>
-				<hotSpot x='16' y='31' xunits='pixels' yunits='insetPixels'>
-				</hotSpot>
-			</IconStyle>
-			<LabelStyle>
-				<scale>1.1</scale>
-			</LabelStyle>
-			<BalloonStyle>
-				<text><![CDATA[<h3>$[name]</h3>]]></text>
-			</BalloonStyle>
-		</Style>
-		<StyleMap id='icon-503-DB4436-nodesc'>
-			<Pair>
-				<key>normal</key>
-				<styleUrl>#icon-503-DB4436-nodesc-normal</styleUrl>
-			</Pair>
-			<Pair>
-				<key>highlight</key>
-				<styleUrl>#icon-503-DB4436-nodesc-highlight</styleUrl>
 			</Pair>
 		</StyleMap>
 	</Document>
